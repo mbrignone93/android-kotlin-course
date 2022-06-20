@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        texto = findViewById<TextView>(R.id.textView)
+        texto = findViewById(R.id.textView)
         val boton = findViewById<Button>(R.id.btnAccion)
 
         boton.setOnClickListener {
